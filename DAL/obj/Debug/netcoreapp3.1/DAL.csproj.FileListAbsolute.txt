@@ -6,3 +6,8 @@ E:\dev\MoneyManager\MoneyManager\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyR
 E:\dev\MoneyManager\MoneyManager\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
 E:\dev\MoneyManager\MoneyManager\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 E:\dev\MoneyManager\MoneyManager\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+E:\dev\MoneyManager\MoneyManager\DAL\bin\Debug\netcoreapp3.1\DTO.dll
+E:\dev\MoneyManager\MoneyManager\DAL\bin\Debug\netcoreapp3.1\DTO.pdb
+E:\dev\MoneyManager\MoneyManager\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+E:\dev\MoneyManager\MoneyManager\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+E:\dev\MoneyManager\MoneyManager\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json

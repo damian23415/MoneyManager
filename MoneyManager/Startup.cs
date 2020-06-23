@@ -2,8 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using DAL;
 using DAL.DataContext;
+using DAL.Implementations;
+using DAL.Interfaces;
+using DTO.Money;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,9 +33,14 @@ namespace MoneyManager
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<ISummaryDAL, SummaryDAL>();
             services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("HomeConnection")));
+
+            services.AddScoped<ExpensesDTO>();
+            services.AddScoped<IncomeDTO>();
+            
+
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
-            services.AddScoped<DataContainer>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

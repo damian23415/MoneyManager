@@ -58,7 +58,8 @@ E:\dev\MoneyManager\MoneyManager\MoneyManager\bin\Debug\netcoreapp3.1\MoneyManag
 E:\dev\MoneyManager\MoneyManager\MoneyManager\bin\Debug\netcoreapp3.1\MoneyManager.dll
 E:\dev\MoneyManager\MoneyManager\MoneyManager\bin\Debug\netcoreapp3.1\MoneyManager.pdb
 E:\dev\MoneyManager\MoneyManager\MoneyManager\bin\Debug\netcoreapp3.1\DAL.pdb
-E:\dev\MoneyManager\MoneyManager\MoneyManager\obj\Debug\netcoreapp3.1\MoneyManager.MvcApplicationPartsAssemblyInfo.cache
 E:\dev\MoneyManager\MoneyManager\MoneyManager\obj\Debug\netcoreapp3.1\MoneyManager.csproj.CopyComplete
 E:\dev\MoneyManager\MoneyManager\MoneyManager\obj\Debug\netcoreapp3.1\MoneyManager.dll
 E:\dev\MoneyManager\MoneyManager\MoneyManager\obj\Debug\netcoreapp3.1\MoneyManager.pdb
+E:\dev\MoneyManager\MoneyManager\MoneyManager\bin\Debug\netcoreapp3.1\DTO.dll
+E:\dev\MoneyManager\MoneyManager\MoneyManager\bin\Debug\netcoreapp3.1\DTO.pdb
