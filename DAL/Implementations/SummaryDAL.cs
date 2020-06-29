@@ -18,10 +18,22 @@ namespace DAL.Implementations
             _ctx = context;
         }
 
-        //TO DO
-        public Task<SummaryDTO> GenerateSum()
+        public async Task<SummaryDTO> AddSum(SummaryDTO model)
         {
-            throw new NotImplementedException();
+            using(_ctx)
+            {
+                var summary = new SummaryDTO()
+                {
+                    UserId = model.UserId,
+                    FromDate = model.FromDate,
+                    ToDate = model.ToDate,
+                    Bilance = model.Bilance,
+                };
+                _ctx.Summary.Add(summary);
+                _ctx.SaveChanges();
+
+                return summary;
+            }
         }
 
         public async Task<SummaryDTO> Get(int sumId)
@@ -35,8 +47,11 @@ namespace DAL.Implementations
 
         public async Task<List<SummaryDTO>> GetByUser(string userId)
         {
-            var userSummary = await _ctx.Summary.Where(x => x.UserId == userId).ToListAsync();
-            return userSummary;
+            using (_ctx)
+            {
+                var userSummary = await _ctx.Summary.Where(x => x.UserId == userId).ToListAsync();
+                return userSummary;
+            }
         }
     }
 }

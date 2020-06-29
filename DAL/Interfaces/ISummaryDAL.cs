@@ -10,6 +10,6 @@ namespace DAL.Interfaces
     {
         public Task<SummaryDTO> Get(int sumId);
         public Task<List<SummaryDTO>> GetByUser(string userId);
-        public Task<SummaryDTO> GenerateSum();
+        public Task<SummaryDTO> AddSum(SummaryDTO model);
     }
 }
