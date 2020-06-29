@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using System.Linq;
 
 namespace DAL.DataContext
 {
@@ -14,8 +15,11 @@ namespace DAL.DataContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> opt) : base(opt)
         {
-
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlServer("HomeConnection");
+
 
         public DbSet<IncomeDTO> Income { get; set; }
         public DbSet<ExpensesDTO> Expense { get; set; }
