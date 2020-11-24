@@ -6,3 +6,4 @@ E:\dev\MoneyManager\MoneyManager\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInp
 E:\dev\MoneyManager\MoneyManager\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 E:\dev\MoneyManager\MoneyManager\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 E:\dev\MoneyManager\MoneyManager\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+E:\dev\MoneyManager\MoneyManager\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache

@@ -38,6 +38,7 @@ namespace MoneyManager
 
             services.AddScoped<ExpensesDTO>();
             services.AddScoped<IncomeDTO>();
+            services.AddScoped<SummaryDTO>();
             
 
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
