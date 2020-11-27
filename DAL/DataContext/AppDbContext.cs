@@ -19,6 +19,6 @@ namespace DAL.DataContext
 
         public DbSet<IncomeDTO> Income { get; set; }
         public DbSet<ExpensesDTO> Expense { get; set; }
-        public DbSet<SummaryDTO> Summary { get; set; }
+        public DbSet<SummaryDTO> Summary { get; set; } 
     }
 }

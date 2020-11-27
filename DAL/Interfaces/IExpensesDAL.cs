@@ -8,8 +8,9 @@ namespace DAL.Interfaces
 {
     public interface IExpensesDAL
     {
-        public Task<ExpensesDTO> Add(string userId);
+        public Task<ExpensesDTO> Add(ExpensesDTO model);
         public Task<ExpensesDTO> Get(int expenseId);
-        public Task<ExpensesDTO> Edit(int expenseId);
+        public Task<ExpensesDTO> Edit(int expenseId, ExpensesDTO model);
+        public Task<List<ExpensesDTO>> GetByUser(string userId);
     }
 }
